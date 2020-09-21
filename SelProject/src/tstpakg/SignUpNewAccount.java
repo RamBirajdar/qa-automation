@@ -96,6 +96,7 @@ public class SignUpNewAccount {
 			System.out.println("User not Successfully regestered and test case is failed.");
 		}
 		
+		System.out.println("Successfully passes test cases..!!");
 		
 		}
 
