@@ -25,9 +25,9 @@ public class EditBoxOperation {
 		
 		
 		
-		System.out.println(email.getAttribute("type"));
+		System.out.println("Value from email "+email.getAttribute("value"));
 				
-		email.clear();
+		//email.clear();
 		
 		String logo1 = driver.findElement(By.className("logo img-responsive")).getText(); // excpetion "NoSuchElementException"
 		System.out.println(logo1);

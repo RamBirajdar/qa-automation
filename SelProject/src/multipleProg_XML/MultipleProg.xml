@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="multipleProg_XML.NewTest"/>
+      <class name="multipleProg_XML.NewTest2"/>
+    </classes>
+  </test> <!-- Test --> 
+</suite> <!-- Suite -->
+
+<!-- This xml file is to run the multiple classes and here in this code running "NewTest" class and "NewTest2" class -->

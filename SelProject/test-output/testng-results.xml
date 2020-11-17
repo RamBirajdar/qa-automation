@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="89" started-at="2020-11-16T21:11:59 IST" finished-at="2020-11-16T21:11:59 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="89" started-at="2020-11-16T21:11:59 IST" finished-at="2020-11-16T21:11:59 IST">
+      <class name="testNGpractice.ParalelTestExecution1">
+        <test-method status="PASS" signature="Login()[pri:0, instance:testNGpractice.ParalelTestExecution1@72b6cbcc]" name="Login" is-config="true" duration-ms="16" started-at="2020-11-16T21:11:59 IST" finished-at="2020-11-16T21:11:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="AddProduct()[pri:0, instance:testNGpractice.ParalelTestExecution1@72b6cbcc]" name="AddProduct" duration-ms="0" started-at="2020-11-16T21:11:59 IST" finished-at="2020-11-16T21:11:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProduct -->
+        <test-method status="PASS" signature="AddVendor()[pri:0, instance:testNGpractice.ParalelTestExecution1@72b6cbcc]" name="AddVendor" duration-ms="0" started-at="2020-11-16T21:11:59 IST" finished-at="2020-11-16T21:11:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddVendor -->
+        <test-method status="PASS" signature="SearchProduct()[pri:0, instance:testNGpractice.ParalelTestExecution1@72b6cbcc]" name="SearchProduct" duration-ms="0" started-at="2020-11-16T21:11:59 IST" finished-at="2020-11-16T21:11:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:testNGpractice.ParalelTestExecution1@72b6cbcc]" name="Logout" is-config="true" duration-ms="0" started-at="2020-11-16T21:11:59 IST" finished-at="2020-11-16T21:11:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- testNGpractice.ParalelTestExecution1 -->
+      <class name="testNGpractice.ParallelTestExecution2">
+        <test-method status="PASS" signature="DeleteProduct()[pri:0, instance:testNGpractice.ParallelTestExecution2@a7e666]" name="DeleteProduct" duration-ms="0" started-at="2020-11-16T21:11:59 IST" finished-at="2020-11-16T21:11:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProduct -->
+        <test-method status="PASS" signature="DeleteSearch()[pri:0, instance:testNGpractice.ParallelTestExecution2@a7e666]" name="DeleteSearch" duration-ms="5" started-at="2020-11-16T21:11:59 IST" finished-at="2020-11-16T21:11:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteSearch -->
+        <test-method status="PASS" signature="DeleteVendor()[pri:0, instance:testNGpractice.ParallelTestExecution2@a7e666]" name="DeleteVendor" duration-ms="8" started-at="2020-11-16T21:11:59 IST" finished-at="2020-11-16T21:11:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteVendor -->
+      </class> <!-- testNGpractice.ParallelTestExecution2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
